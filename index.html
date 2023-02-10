@@ -9,7 +9,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <title>Tic Tac Toe Game using JavaSript using JavaScript with Source Code - @code.scientist x @codingtorque
+    <title>Tic Tac Toe | Nefi Avila
     </title>
 </head>
 
@@ -17,9 +17,9 @@
     <!-- Further code here -->
     <table id="scoreboard" align="center">
         <tr>
-            <td> Player 1 </td>
+            <td> Jugador 1 </td>
             <td width="30"> &nbsp; </td>
-            <td> Player 2 </td>
+            <td> Jugador 2 </td>
         </tr>
         <tr>
             <td class="score" id="player1">
@@ -35,13 +35,16 @@
     <div id="placeholder"></div>
 
     <button onclick="restart()">
-        Reset
+        Restablecer
     </button>
     <select onchange="restart(this.value)">
+        <option disabled selected="">
+           Elige una opción
+        </option>
         <option value="2">
             2 X 2
         </option>
-        <option value="3" selected="">
+        <option value="3">
             3 X 3
         </option>
         <option value="4">

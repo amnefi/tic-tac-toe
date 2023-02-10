@@ -195,9 +195,9 @@ var tictactoe = new TicTacToe(placeholder, 3, onResult);
 
 function onResult(result, scores) {
     if (result == 'draw') {
-        alert("It's a draw !");
+        alert("Esto es un empate, nadie gana!");
     } else {
-        alert(result + " has won");
+        alert(result + " es el ganador");
         updateScores(scores.X, scores.O);
     }
     tictactoe.empty();
